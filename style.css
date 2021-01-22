@@ -1,3 +1,80 @@
 body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+/* navigation bar      */
+.navigation-bar{
+  overflow: hidden;
+  height: 70px;
+   width: 100%;
   background-color: black;
+}
+.brand{
+  margin-left: 40px;
+  width: 80px;
+  height: 50px;
+  float: left;
+  padding: 12px 16px;
+}
+
+.navigation-bar a{
+  float: left;
+  color: #f2f2f2;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* textarea */
+.textArea{
+  min-height: 20vw;
+  width: 60vw;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+}
+.textArea textarea{
+  height: 10vw;
+  width: 50vw;
+  display: block;
+  margin: auto;
+  resize: none;
+  font-size: 17px;
+}
+.textArea button{
+  margin-top: 15px;
+  background-color: #0278ae;
+  border: none;
+  font-size: 17px;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  color: white;
+}
+
+/* notes */
+.yourNotes{
+  height: 20vw;
+  width: 60vw;
+  margin: auto;
+}
+.yourNotes h2{
+  text-align: left;
+}
+
+.allNotes{
+  min-height: 10vw;
+  width: 20vw;
+  border: 1px solid black;
+}
+.allNotes button{
+  background-color: #0278ae;
+  border: none;
+  font-size: 17px;
+  border-radius: 20px;
+  height: 35px;
+  width: 110px;
+  color: white;
 }
